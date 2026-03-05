@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #001f3f, #003366);
+    color: white;
+    text-align: center;
+}
+
+header{
+    padding: 20px;
+}
+
+.logo img{
+    width: 250px;
+}
+
+section{
+    margin-top: 40px;
+}
+
+nav{
+    margin-top: 15px;
+}
+
+nav a{
+    text-decoration: none;
+    color: #00ffff;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: white;
+}
+
+.conteudo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    padding: 40px;
+}
+
+.texto{
+    max-width: 400px;
+    text-align: left;
+}
+
+.imagem img{
+    width: 350px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0,0,0,0,5);
+}
